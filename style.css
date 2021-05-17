@@ -1,0 +1,38 @@
+*,*:before,*:after{
+ margin: 0;
+ padding : 0;
+ box-sizing : border-box;
+}
+p{
+ border: 1px solid black;
+ color: black;
+ font-size: 0.5rem;
+ padding: 0.5em;
+ margin: 1em;
+ font-weight: bold;
+ text-align: center;
+ background: #FF4500;
+ text-transform: uppercase;
+
+}
+@media only screen and (min-width: 481px){
+ html{
+  font-size: 25px;
+ }
+p{ color: darkgreen;
+ font-size: 1.5rem;}
+}
+
+@media only screen and (min-width: 768px){
+ html{
+  font-size: 35px;
+ }
+p{ color:yellow;
+ font-size:3rem;}
+}
+@media only screen and (min-width: 1080px){
+ html{
+  font-size: 50px;
+ }
+p{color: darkgoldenrod;
+font-size: 0.5rem;}}
