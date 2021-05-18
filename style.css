@@ -1,38 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *,*:before,*:after{
  margin: 0;
  padding : 0;
+ font-family: 'Montserrat', sans-serif;
  box-sizing : border-box;
 }
-p{
- border: 1px solid black;
- color: black;
- font-size: 0.5rem;
- padding: 0.5em;
- margin: 1em;
- font-weight: bold;
- text-align: center;
- background: #FF4500;
- text-transform: uppercase;
-
+:root{
+ --first-color: dodgerblue;
+  --second-color: ;
+  --third-color: ;
 }
-@media only screen and (min-width: 481px){
- html{
-  font-size: 25px;
- }
-p{ color: darkgreen;
- font-size: 1.5rem;}
+
+:is(h3,h4,a){
+ font-size: 1.6rem;
+}
+
+:not(.nav_container, .nav_head, .hamburger_menu, .bar , h2,li,a ){
+ background: ghostwhite;
+}
+.nav_container{
+ width: 100%;
+ height:100%;
+ top: 0;
+ position: fixed;
+}
+.nav_head{
+ padding: 0.5em 0.8em;
+  display: flex;
+ justify-content: space-between;
+ z-index: 1;
+  
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2),
+0 6px 20px 0 rgba(0, 0, 0, .19);
+
+background: mediumpurple;
+ 
+}
+
+.nav_head > .hamburger_menu{
+ height: 1.8em;
+ width: 1.8em;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+.bar{
+ width: 100%;
+ height: 0.2em;
+ background: whitesmoke;
+}
+.nav_logo{
+ width: 2.3em;
+ height: 2.2em;
+ cursor: pointer;
+ border-radius: 100%;
+}
+.nav_links{
+ transform: translateX(-100%);
+ transition: transform 0.4s ease-in;
+ width: 75vw;
+ height: 100vh;
+ display: flex;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2),
+ 0 6px 20px 0 rgba(0, 0, 0, .19);
+ flex-direction: column;
+ background: antiquewhite;
+}
+.nav_links > li{
+ list-style: none;
+margin: 4em 1em 0em 2em;
+}
+a{
+ border-radius: 5px;
+ font-weight: bolder;
+ text-transform: uppercase;
+ text-decoration: none;
+}
+a:hover{
+ color: white;
+ background: red;
+ transition: 0.5s ease-out;
+ padding: 0.2em 0.5em;
+}
+.show{
+ transform: translateX(0%);
+ transition: transform 0.4s ease-out;
+}
+.header_data{
+ margin-top: 4.3em;
+}
+.footer_img{
+ width: 100%;
+ height: 50vh;
+}
+@media only screen and (min-width: 480px){
+ html {
+  font-size: 20px;
+}
 }
 
 @media only screen and (min-width: 768px){
- html{
-  font-size: 35px;
- }
-p{ color:yellow;
- font-size:3rem;}
+ html {
+  font-size: 24px;
+}
+.nav_container{
+ position: relative;
+
+}
+
+.nav_head > .hamburger_menu{
+ display: none;
+}
+ .nav_links {
+  position: absolute;
+  top: 25px;
+ display: flex;
+ flex-direction: row;
+ transform: unset;
+ transition: unset;
+ background: unset;
+ box-shadow: unset;
+}
+.nav_links > li{
+ list-style: none;
+margin: 0em 0em 0em 5em;
+}
+a{
+ font-weight: bold;
+ font-size: 1rem;
+ color:lightgoldenrodyellow;
+ background: unset;
+ transition: unset;
+ padding: 0.3em;
+ border-radius: 10px;
+}
+a:hover {
+ padding: 0.4em;
+ background: red;
+ transition: 0.3s ease-out;
+}
 }
 @media only screen and (min-width: 1080px){
  html{
-  font-size: 50px;
+  font-size: 35px;
  }
-p{color: darkgoldenrod;
-font-size: 0.5rem;}}
+}
