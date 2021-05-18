@@ -155,6 +155,7 @@ a:hover {
   position: absolute;
   top: 30px;
  display: flex;
+margin-left: 10em;
  flex-direction: row;
  transform: unset;
  transition: unset;
@@ -163,7 +164,6 @@ a:hover {
 }
 .nav_links > li{
  list-style: none;
-margin: 0em 0em 0em 14em;
 }
 a{
  font-weight: bold;
