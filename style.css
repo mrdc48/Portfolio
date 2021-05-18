@@ -2,6 +2,7 @@
 *,*:before,*:after{
  margin: 0;
  padding : 0;
+ overflow-X:hidden;
  font-family: 'Montserrat', sans-serif;
  box-sizing : border-box;
 }
@@ -120,7 +121,7 @@ a:hover{
 }
 .nav_links > li{
  list-style: none;
-margin: 0em 0em 0em 4em;
+margin: 0em 0em 0em 3.3em;
 }
 a{
  font-weight: bold;
@@ -155,7 +156,6 @@ a:hover {
   position: absolute;
   top: 30px;
  display: flex;
-margin-left: 10em;
  flex-direction: row;
  transform: unset;
  transition: unset;
@@ -164,6 +164,7 @@ margin-left: 10em;
 }
 .nav_links > li{
  list-style: none;
+margin: unset;
 }
 a{
  font-weight: bold;
