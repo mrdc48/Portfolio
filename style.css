@@ -139,7 +139,7 @@ a:hover {
 }
 @media only screen and (min-width: 1080px){
  html{
-  font-size: 30px;
+  font-size: 32px;
  }
  .nav_head{
   width: 100vw;
@@ -163,7 +163,7 @@ a:hover {
 }
 .nav_links > li{
  list-style: none;
-margin: 0em 0em 0em 6em;
+margin: 0em 0em 0em 9em;
 }
 a{
  font-weight: bold;
