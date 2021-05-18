@@ -101,17 +101,45 @@ a:hover{
 .nav_container{
  position: relative;
 }
+
+.nav_head > .hamburger_menu{
+ display: none;
+}
+
+ .nav_links {
+  position: absolute;
+  top: 25px;
+ display: flex;
+ flex-direction: row;
+ transform: unset;
+ transition: unset;
+ background: unset;
+ box-shadow: unset;
+}
 .nav_links > li{
  list-style: none;
 margin: 0em 0em 0em 3em;
 }
+a{
+ font-weight: bold;
+ font-size: 1rem;
+ color:lightgoldenrodyellow;
+ background: unset;
+ transition: unset;
+ padding: 0.3em;
+ border-radius: 10px;
+}
+a:hover {
+ padding: 0.4em;
+ background: red;
+ transition: 0.3s ease-out;
+}
+
 }
  @media screen and (max-width: 1080px) and (min-width: 968px){
  html {
   font-size: 25px;
 }
-
-
 .nav_head > .hamburger_menu{
  display: none;
 }
