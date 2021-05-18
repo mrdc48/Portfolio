@@ -79,7 +79,7 @@ a{
 a:hover{
  color: white;
  background: red;
- transition: 0.5s ease-out;
+ transition: 0.4s ease-out;
  padding: 0.2em 0.5em;
 }
 .show{
@@ -94,20 +94,28 @@ a:hover{
  height: 50vh;
 }
 
-@media  screen and (max-width: 1080px) and (min-width: 760px){
+ @media screen and (max-width: 967px) and (min-width: 600px){
  html {
-  font-size: 25px;
+  font-size: 20px;
 }
 .nav_container{
  position: relative;
+}
+.nav_links > li{
+ list-style: none;
+margin: 0em 0em 0em 3em;
+}
+}
+ @media screen and (max-width: 1080px) and (min-width: 968px){
+ html {
+  font-size: 25px;
+}
 
-}
-.nav_head{
- width: 100vw;
-}
+
 .nav_head > .hamburger_menu{
  display: none;
 }
+
  .nav_links {
   position: absolute;
   top: 25px;
