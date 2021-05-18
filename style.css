@@ -137,7 +137,7 @@ a:hover {
  transition: 0.3s ease-out;
 }
 }
-@media only screen and (min-width: 1080px){
+@media only screen and (min-width: 1280px){
  html{
   font-size: 32px;
  }
