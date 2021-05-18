@@ -96,7 +96,7 @@ a:hover{
 
 @media only screen and (min-width: 768px){
  html {
-  font-size: 25px;
+  font-size: 23px;
 }
 .nav_container{
  position: relative;
@@ -120,7 +120,7 @@ a:hover{
 }
 .nav_links > li{
  list-style: none;
-margin: 0em 0em 0em 5em;
+margin: 0em 0em 0em 4em;
 }
 a{
  font-weight: bold;
@@ -163,7 +163,7 @@ a:hover {
 }
 .nav_links > li{
  list-style: none;
-margin: 0em 0em 0em 4em;
+margin: 0em 0em 0em 6em;
 }
 a{
  font-weight: bold;
