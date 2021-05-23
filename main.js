@@ -1,3 +1,8 @@
+// on scroll animation
+AOS.init({
+ duration: 650
+});
+
 const menuBtn = document.querySelector('.hamburger_menu')
 const navData = document.querySelector('.nav_links');
 
