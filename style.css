@@ -478,13 +478,13 @@ margin-bottom: 1em;
 
 @media screen and (max-width: 200px) {
  html{
-  font-size: 12px;
+  font-size: 7px;
  }
   .skills_card-1 > .contentImg {
     width: 100px;
     height: 100px;
-    top: 70px;
-    right: 8px;
+    top: 40px;
+    right: 2px;
 }
 }
 
@@ -765,8 +765,11 @@ margin-bottom: 1em;
 
 /* media queries for 768px */
 @media screen and (max-width: 768px) {
+ .nav_name{
+  margin-left: 2em;
+ }
   .nav_logo {
-        margin: 0em 1em 0em 2em;
+        margin: 0em 1em 0em .5em;
     }
  
 }
