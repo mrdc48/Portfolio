@@ -475,10 +475,9 @@ margin-bottom: 1em;
 
 
 /* media queries for 200px */
-
 @media screen and (max-width: 200px) {
  html{
-  font-size: 7px;
+  font-size: 8px;
  }
   .skills_card-1 > .contentImg {
     width: 100px;
@@ -764,12 +763,12 @@ margin-bottom: 1em;
 }
 
 /* media queries for 768px */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
  .nav_name{
-  margin-left: 4.3em;
+  margin-left: 5em;
  }
   .nav_logo {
-        margin: 0em 1em 0em .5em;
+        margin: 0em 1em 0em 1em;
     }
  
 }
