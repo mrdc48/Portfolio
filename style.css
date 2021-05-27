@@ -472,34 +472,17 @@ margin-bottom: 1em;
     place-items: center;
 }
 
-/* media queries for 1380px */
 
-@media screen and (min-width: 1380px) {
- html{
-  font-size: 23px;
- }
-}
 
 /* media queries for 200px */
 
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 200px) {
   .skills_card-1 > .contentImg {
-    content: "";
-    width: 150px;
-    height: 140px;
-    position: absolute;
+    width: 100px;
+    height: 100px;
     top: 70px;
     right: 8px;
 }
-}
-
-/* media queries for 768px */
-@media screen and (min-width: 768px) {
-  .nav_logo {
-     
-        margin: 0em 2em 0em 1em;
-    }
- 
 }
 
 /* media queries for mid-devices */
@@ -775,4 +758,21 @@ margin-bottom: 1em;
 }
 .new {
     background: #141414;
+}
+
+/* media queries for 768px */
+@media screen and (max-width: 768px) {
+  .nav_logo {
+        margin: 0em 2em 0em 1em;
+    }
+ 
+}
+
+/* media queries for 1380px */
+
+@media screen and (min-width: 1380px) {
+    .aboutText {
+        color: #f8f8ff;
+        font-size: 2rem;
+    }
 }
