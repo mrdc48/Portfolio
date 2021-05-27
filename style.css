@@ -472,11 +472,37 @@ margin-bottom: 1em;
     place-items: center;
 }
 
+/* media queries for 1380px */
 
+@media screen and (min-width: 1380px) {
+ html{
+  font-size: 23px;
+ }
+}
 
+/* media queries for 200px */
 
+@media screen and (min-width: 200px) {
+  .skills_card-1 > .contentImg {
+    content: "";
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    top: 70px;
+    right: 8px;
+}
+}
 
-/* media queries for tablet devices */
+/* media queries for 768px */
+@media screen and (min-width: 768px) {
+  .nav_logo {
+     
+        margin: 0em 2em 0em 1em;
+    }
+ 
+}
+
+/* media queries for mid-devices */
 
 @media screen and (min-width: 660px) {
     body::before {
@@ -697,7 +723,7 @@ margin-bottom: 1em;
     }
     .aboutText {
         color: #f8f8ff;
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
     .custom-shape-divider-top-1621765010 .shape-fill {
         fill: #9370db;
