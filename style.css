@@ -708,7 +708,7 @@ margin-bottom: 1em;
     }
     .aboutText {
         color: #f8f8ff;
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
     .custom-shape-divider-top-1621765010 .shape-fill {
         fill: #9370db;
@@ -778,11 +778,6 @@ margin-bottom: 1em;
 @media screen and (min-width: 1380px) {
     .aboutText {
         color: #f8f8ff;
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
-@media screen and (min-width: 3000px) {
-    .nav_link{
-display: none;
-}
-
