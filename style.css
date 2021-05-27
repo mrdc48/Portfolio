@@ -781,3 +781,8 @@ margin-bottom: 1em;
         font-size: 2rem;
     }
 }
+@media screen and (min-width: 3000px) {
+    .nav_link{
+display: none;
+}
+
