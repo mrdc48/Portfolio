@@ -479,7 +479,7 @@ margin-bottom: 1em;
 /* media queries for 200px */
 @media screen and (max-width: 280px) {
  html{
-  font-size: 10px;
+  font-size: 14px;
  }
  .card_content-1 {
   margin-top: 1em;
@@ -489,19 +489,19 @@ margin-bottom: 1em;
   padding-left: .7em;
  }
   .skills_card-1 > .contentImg {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     top: 20px;
-    right: 2px;
+    right: 20px;
 }
 .content_2 {
-    padding-left: .8em;
+    padding-left: 1.5em;
     font-size: 1rem;
 }
 .content_2::before {
     margin-left: 1em;
-    width: 5px;
-    height: 5px;
+    width: 8px;
+    height: 8px;
 }
 
 
