@@ -783,11 +783,18 @@ overflow-Y: hidden;
 
 /* media queries for 768px */
 @media screen and (min-width: 768px) {
+ 
+ .nav_links {
+      top: -2.9%;
+    }
  .nav_name{
   margin-left: auto;
  }
   .nav_logo {
         margin: 0em 1em 0em 1em;
+    }
+    .card_content-1 > li{
+     font-size: 2rem;
     }
  
 }
@@ -795,6 +802,9 @@ overflow-Y: hidden;
 /* media queries for 1380px */
 
 @media screen and (min-width: 1380px) {
+ nav_links {
+  top: -3.3%;
+ }
     .aboutText {
         color: #f8f8ff;
         font-size: 1rem;
