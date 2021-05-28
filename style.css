@@ -805,7 +805,7 @@ overflow-Y: hidden;
  nav_links {
   top: -3.3%;
  }
-.card_content-1{
+.card_content-1 > li{
 font-size: 2rem;
 }
 
