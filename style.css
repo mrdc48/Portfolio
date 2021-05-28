@@ -794,7 +794,7 @@ overflow-Y: hidden;
         margin: 0em 1em 0em 1em;
     }
     .card_content-1 > li{
-     font-size: 2rem;
+     font-size: 1.6rem;
     }
  
 }
@@ -805,6 +805,10 @@ overflow-Y: hidden;
  nav_links {
   top: -3.3%;
  }
+.card_content-1{
+font-size: 2rem;
+}
+
     .aboutText {
         color: #f8f8ff;
         font-size: 1rem;
