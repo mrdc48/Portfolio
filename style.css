@@ -591,11 +591,14 @@ margin-bottom: 1em;
     }
     .nav_links {
      all: unset;
+   
      display: flex;
-      z-index: 3;
-      top: -2.7%;
-      position: fixed;
-      flex-direction: row;
+     z-index: 4;
+     position: fixed;
+     margin-top: auto;
+   
+     margin-left: auto;
+     flex-direction: row;
     }
     .show{
      display: none;
@@ -603,7 +606,7 @@ margin-bottom: 1em;
     
     .navigation {
      font-size: 1.6rem;
-        color:#fff;
+        color:palevioletred;
     }
     .navigation:hover {
 overflow-Y: hidden;
@@ -783,10 +786,9 @@ overflow-Y: hidden;
 
 /* media queries for 768px */
 @media screen and (min-width: 768px) {
- 
- .nav_links {
-      top: -2.9%;
-    }
+ .nav_links{
+  top: -2.7%;
+ }
  .nav_name{
   margin-left: auto;
  }
@@ -794,21 +796,15 @@ overflow-Y: hidden;
         margin: 0em 1em 0em 1em;
     }
     .card_content-1 > li{
-     font-size: 1.6rem;
+     font-size: 1.2rem;
     }
  
 }
 
 /* media queries for 1380px */
 
-@media screen and (min-width: 1380px) {
- nav_links {
-  top: -3.3%;
- }
-.card_content-1 > li{
-font-size: 2rem;
-}
-
+@media screen and (min-width: 1380px)
+   {
     .aboutText {
         color: #f8f8ff;
         font-size: 1rem;
