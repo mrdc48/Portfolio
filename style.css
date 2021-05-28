@@ -787,7 +787,7 @@ overflow-Y: hidden;
 /* media queries for 768px */
 @media screen and (min-width: 768px) {
  .nav_links{
-  top: -2.7%;
+  top: -3.3em;
  }
  .nav_name{
   margin-left: auto;
