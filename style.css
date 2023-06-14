@@ -101,7 +101,7 @@ body::after {
     z-index: 3;
     position: fixed;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background: #9370db;
+    background: #f5430b;
 }
 .nav_head > .hamburger_menu {
     height: 1.8em;
@@ -228,7 +228,7 @@ body::after {
     width: 100vw;
     height: auto;
     margin-bottom: 0;
-    background: #9370db;
+    background: #141426;
 }
 .content_sub-div {
     position: absolute;
