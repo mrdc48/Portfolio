@@ -94,7 +94,7 @@ body::after {
 .nav_head {
     display: flex;
     width: 100vw;
-top:-.2rem
+top:-.2rem;
     flex-direction: row;
     justify-content: space-between;
     padding: 0.5em 0.8em;
